@@ -94,6 +94,8 @@ img{
 
 /* large screen */
 @media (min-width:800px) {
- 
+ img{
+   width: 60vw;
+  }
 }
 
