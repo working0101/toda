@@ -70,6 +70,7 @@ section{
 }
 
 img{
+  width: 80vw;
   outline: solid 5px black;
   box-shadow:    10px 20px 20px #666666;
   /* box-shadow:  3px 3px red, -1em 0 0.4em olive; */
@@ -78,26 +79,15 @@ img{
 
 .text{
   font-size: 20px;
-  margin: 15px; auto;
-
+  margin: 15px auto ;
 
   /* outline: 1px solid red; */
 }
 /* small screen */
-img{
-  width: 95%;
-  margin: auto;
-}
 
 
 /* medium screen */
 @media (min-width:600) {
-  img{
-    width: 500px;
-  }
-  section{
-    display: flex;
-  }
   
 }
 
